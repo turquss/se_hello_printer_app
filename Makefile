@@ -8,6 +8,7 @@ test:
 	PYTHONPATH=. py.test --verbose -s
 
 lint:
-	flake8 hello_word
+	flake8 hello_world test
+
 run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
