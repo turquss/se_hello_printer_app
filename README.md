@@ -41,9 +41,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   ```
-Mozemy uruchomic lintera , sprawdzenie czy nasz kod dziala poprawnie wg standardow Python
+ - Mozemy uruchomic lintera
 - ```
-$ make lint
+  $ make lint
 
 ```
 
@@ -87,7 +87,7 @@ Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplik
         docker-engine
 
   $ make docker_run
-  
+
   $ yum install -y yum-utils
 
   $ yum-config-manager \
