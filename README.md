@@ -1,4 +1,8 @@
 # Simple Flask App
+[![Build Status](https://travis-ci.com/turquss/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/turquss/se_hello_printer_app)
+
+[![Build Status](https://app.statuscake.com/button/index.php?Track=6003179&Days=1&Design=1)](https://travis-ci.com/turquss/se_hello_printer_app)
+
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
@@ -98,3 +102,4 @@ Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplik
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+- Monitoring z Statuscace (na  https://app.statuscake.com/ )
