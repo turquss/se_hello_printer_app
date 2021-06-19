@@ -11,6 +11,6 @@ after_success:
   - make docker_build
   - make docker_push
 deploy:
-  - provider: heroku
-  - app: warm-wave-53453
-  - api_key: ${HEROKU_API_KEY}
+  provider: heroku
+  app: warm-wave-53453
+  api_key: ${HEROKU_API_KEY}
