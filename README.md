@@ -11,7 +11,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   # aktywowanie hermetycznego środowiska
   $ source .venv/bin/activate
+
   $ make deps
+  #instaluje biblioteki
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
 
@@ -33,13 +35,19 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
 
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
-  $ make test
+
   ```
+  $ make test
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   ```
+Mozemy uruchomic lintera , sprawdzenie czy nasz kod dziala poprawnie wg standardow Python
+- ```
+$ make lint
 
-- Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
+```
+
+Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
 
   ```
   # deaktywacja
@@ -47,6 +55,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
 
   ```
+
   ...
 
   # aktywacja
@@ -70,12 +79,15 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Instalacja docker-a:
 
   ```
+  $ make docker_build
   $ yum remove docker \
         docker-common \
         container-selinux \
         docker-selinux \
         docker-engine
 
+  $ make docker_run
+  
   $ yum install -y yum-utils
 
   $ yum-config-manager \
