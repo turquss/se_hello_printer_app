@@ -1,7 +1,7 @@
 # Simple Flask App
 [![Build Status](https://travis-ci.com/turquss/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/turquss/se_hello_printer_app)
 
-[![Build Status](https://app.statuscake.com/button/index.php?Track=6003179&Days=1&Design=1)](https://app.statuscake.com/UptimeStatus.php?tid=6003179)
+[![Build Status](https://app.statuscake.com/button/index.php?Track=6003179&Days=1&Design=4)](https://app.statuscake.com/UptimeStatus.php?tid=6003179)
 
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
